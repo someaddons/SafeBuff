@@ -56,7 +56,7 @@ How to use SafeBuff:
 	
 2. SafeBuffRaid(buff,excludeBuffs,ExcludeClasses) Selects and Buffs a raidmember which is missing the Buff and does not match the excluded buffs nor the excluded classes.
 	
-	Parameters: Same as SafeBuff() above, except there is no unit needed.
+Parameters: Same as SafeBuff() above, except there is no unit needed.
 	
 	Examples:
 	
