@@ -1,0 +1,4 @@
+## Interface: 11200
+## Title: SafeBuff|cFF0000FF 1.6
+## Notes: Smart target buffing
+SafeBUff.lua
