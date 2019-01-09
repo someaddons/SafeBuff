@@ -99,7 +99,7 @@ function SafeBuff(unit,buff,textures,ExClasses,raidBuffing)
 			if HasBuff(unit,texture) then return false end 
 		end
 		if not UnitIsUnit("target",unit) and not (unit == "player" and (UnitCanAssist("player","target") == nil or UnitExists("target")== nil)) then TargetUnit(unit) end
-		CastSpellByName(buff,unit)
+		CastSpellByName(buff)
 		return true
 	else
 		return false
